@@ -6,3 +6,10 @@ other object detection. here we are using labelme tool to labeling the images.
 
 For Mask_RCNN i took pretrained model like SSD_MobileNet_V1 from TFOD Zoo model and to trained my model in paper space for 20000 epochs.
 it took around 3hrs to train my model.
+
+
+![](masking_images/image2.png)
+
+![](masking_images/image3.png)
+
+![](masking_images/image4.png)
