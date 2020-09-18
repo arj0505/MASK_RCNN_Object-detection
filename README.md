@@ -1,11 +1,20 @@
-# MASK_RCNN_Object-detection
+# MASK_RCNN_Object detection
 
-Developed deeplearning Mask_RCNN object detection project to masking satilight images like Buildings,Forest and Rivers.
-for this project i took very small dataset like 50 images done with labeling. One thing to remember for labelling mask rcnn is deferent than 
-other object detection. here we are using labelme tool to labeling the images.
+Developed deep learning Mask_RCNN object detection project for masking satellite images like Buildings, Forest, and Rivers.
+For this project, I took a very small image dataset like 50 images. my basic moto of this project is that the masking is done on objects or not. 
+For labeling, I used the labelme tool for my image dataset. 
 
-For Mask_RCNN i took pretrained model like SSD_MobileNet_V1 from TFOD Zoo model and to trained my model in paper space for 20000 epochs.
-it took around 3hrs to train my model.
+One thing to remember for labeling images in mask rcnn is deferent than other object detection like instead of box plot we used to do masking the exact object here. 
+
+For Mask_RCNN, I took a pre-trained model like SSD_MobileNet_V1 from TFOD Zoo model. To train my model, I  used paper space for 20000 epochs it took around 3hrs to train my model.
+
+Once 20000 epochs are done generate last(Final run) model.ckpt file to .pb file
+
+
+
+
+
+
 
 
 ![](masking_images/image2.png)
