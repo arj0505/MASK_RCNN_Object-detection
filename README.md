@@ -14,6 +14,8 @@ For Mask_RCNN, I took a pre-trained model like SSD_MobileNet_V1 from TFOD Zoo mo
 
 Once 20000 epochs are done generate last(Final run) model.ckpt file to .pb file
 
+![](Screenshots//image4.jpg)
+
 ![](Screenshots//image2.jpg)
 
 Finally we got masking object detection images
